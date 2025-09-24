@@ -36,19 +36,19 @@ export default function CartPage() {
             <div className="flex items-center space-x-2">
               <button
                 onClick={() => decreaseQuantity(item.id)}
-                className="px-2 py-1 bg-gray-300 rounded"
+                className="px-2 py-1 bg-gray-300 rounded cursor-pointer"
               >
                 -
               </button>
               <span className="px-3">{item.quantity}</span>
               <button
                 onClick={() => addToCart(item)}
-                className="px-2 py-1 bg-gray-300 rounded"
+                className="px-2 py-1 bg-gray-300 rounded cursor-pointer"
               >
                 +
               </button>
             
-              <button onClick={() => removeFromCart(item.id)} className="px-2 bg-red-500 text-white">
+              <button onClick={() => removeFromCart(item.id)} className="px-2 bg-red-500 text-white cursor-pointer">
                 Remove
               </button>
            </div>
@@ -59,7 +59,7 @@ export default function CartPage() {
         <h2 className="text-xl font-semibold">Total: ${totalPrice.toFixed(2)}</h2>
         <button
           onClick={clearCart}
-          className="px-4 py-2 bg-green-600 text-white rounded"
+          className="px-4 py-2 bg-green-600 text-white rounded cursor-pointer"
         >
           Checkout
         </button>
