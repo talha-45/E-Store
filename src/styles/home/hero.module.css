@@ -35,10 +35,10 @@
 
 .imageSection{
     flex: 1;
-    max-width: 50%;
+    max-width: 40%;
     position: relative;
     overflow: hidden;
-    height: 450px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;

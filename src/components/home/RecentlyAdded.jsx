@@ -22,7 +22,7 @@ export default function RecentlyAdded() {
   }, []);
 
   return (
-    <div className="bg-gray-100 p-3">
+    <div className="bg-gray-100 p-3 mt-17">
       <Container>
         <h1 className="text-center text-3xl font-bold">
           Recently Added Products
