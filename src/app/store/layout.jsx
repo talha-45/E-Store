@@ -5,8 +5,8 @@ import React from 'react'
 
 export default function StoreLayout({children}) {
   return (
-     <Container className='grid grid-cols-5 gap-3'>
-      <CategoryListing />
+     <Container className='grid grid-cols-2 gap-3'>
+      {/* <CategoryListing /> */}
       {children}
     </Container>
   )

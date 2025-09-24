@@ -15,7 +15,7 @@ export default async function FeaturedProduct() {
   };
 
   // fetch products id=5 to id=10
-  const products = await getProductsByRange(15,19);
+  const products = await getProductsByRange(15,18);
 
   return (
     <div className="p-3">
@@ -23,7 +23,7 @@ export default async function FeaturedProduct() {
         <h1 className="text-center text-3xl font-bold">
           Featured Product
         </h1>
-        <div className="my-4 grid grid-cols-2 gap-3 md:grid-cols-5">
+        <div className="my-4 grid grid-cols-2 gap-3 md:grid-cols-4">
           {products.map((prod) => (
             <ProductBox key={prod.id} product={prod} />
           ))}
