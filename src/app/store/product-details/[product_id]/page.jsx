@@ -14,7 +14,8 @@ export default async function ProductDetails({ params }) {
             <img
               src={product.image}
               alt={product.title}
-              className={`${styles.productImage} w-full object-cover`}
+              
+              className={`${styles.productImage} w-md object-cover`}
             />
           </div>
           <div className="p-8 md:w-1/2 space-y-4">
