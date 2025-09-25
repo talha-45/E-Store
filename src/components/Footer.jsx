@@ -29,8 +29,8 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/" className="hover:text-white transition">Home</Link></li>
             <li><Link href="/store" className="hover:text-white transition">Store</Link></li>
-            <li><Link href="/about" className="hover:text-white transition">About Us</Link></li>
-            <li><Link href="/contact" className="hover:text-white transition">Contact</Link></li>
+            <li><Link href="#" className="hover:text-white transition">About Us</Link></li>
+            <li><Link href="#" className="hover:text-white transition">Contact</Link></li>
           </ul>
         </div>
 
@@ -38,10 +38,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Categories</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="/category/electronics" className="hover:text-white transition">Electronics</a></li>
-            <li><a href="/category/fashion" className="hover:text-white transition">Fashion</a></li>
-            <li><a href="/category/home" className="hover:text-white transition">Home & Living</a></li>
-            <li><a href="/category/sports" className="hover:text-white transition">Sports</a></li>
+            <li  className="hover:text-white transition">Electronics</li>
+            <li  className="hover:text-white transition">Fashion</li>
+            <li className="hover:text-white transition">Home & Living</li>
+            <li className="hover:text-white transition">Sports</li>
           </ul>
         </div>
 
